@@ -1,3 +1,5 @@
+
+
 /*=============================================
 =            Gif Puzzle Game Styles           =
 =============================================*/
@@ -102,12 +104,12 @@ canvas {
 
 #timer {
   transition: all .2s ease-in-out;
- margin-left: 1em;
+  margin-left: 1em;
   height: 8vh;
   color: var(--bg1);
   background-color: var(--textColor);
   width: 5rem;
-   font-size: 2.5rem;
+  font-size: 2.5rem;
   cursor: pointer;
 
 }
@@ -141,7 +143,7 @@ footer {
   background: none;
   font-family: var(--font);
   color: var(--bg1);
-  font-size: 1em;
+  font-size: 0.95rem;
 
 }
 
@@ -149,7 +151,7 @@ a {
   color: var(--bg1);
   text-decoration: none;
   font-family: var(--font);
-  font-size: 1em;
+  font-size: 0.95rem;
   margin-left: 0.2em;
 
 }
@@ -220,7 +222,7 @@ a {
   #timer,
   #statistics,
   #backGroundMusic {
-    font-size: 0.9em;
+    font-size: 0.839rem;
 
   }
 }
@@ -246,10 +248,9 @@ a {
   }
 
   #timer,
-  #stattistics
-    {
+  #stattistics {
     width: 1.2rem;
-    font-size: 0.9em;
+    font-size: 0.839rem;
 
   }
 
