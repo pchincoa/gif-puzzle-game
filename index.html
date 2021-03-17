@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+
+    <title>Puzzle game with JS and p5.js</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Progammieren mit JS">
+    <meta name="keywords" content="">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="canvas-holder"></div>
+    <header id="container-menu">
+        <h1 id="header">Gif Puzzle</h1>
+        <button id="newGame">New Game</button>
+        <button id="btn">Shuffle</button>
+
+        <button id="backGroundMusic">Music On</button>
+
+        <div id="statistics" class="hidden">
+            <span id="clicks">&nbsp</span>
+            <span id="timer">&nbsp</span>
+        </div>
+    </header>
+
+
+    <footer id="footer">
+        <button id="eg">Test</button>
+        <a href="https://github.com/YH730/puzzle/"> GitHub&nbsp</a>
+        <a href="https://freemusicarchive.org/music/
+        Antique_Phonograph_Music_Program_Various_
+        Artists/Antique_Phonograph_Music_Program_01192016/Oh_By_Jingo_All_Star_Trio"> | Music |</a>
+        <button class="makers">Yung Zöllner & Pedro Chincoa &copy</button>
+
+
+
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/confetti.js"></script>
+    <audio id="backGround" src="sound/Oh-by-jingo.mp3"></audio>
+
+</body>
+
+
+</html>
