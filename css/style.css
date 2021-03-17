@@ -234,7 +234,7 @@ a {
   #timer,
   #statistics,
   #backGroundMusic {
-    font-size: 1em;
+    font-size: 0.8em;
 
   }
 }
@@ -255,14 +255,14 @@ a {
   #statistics,
   #timer,
   #backGroundMusic {
-    font-size: 1em;
+    font-size: 0.8em;
 
   }
 
   #timer,
   #stattistics {
     width: 1.2rem;
-    font-size: 1em;
+    font-size: 0.8em;
 
   }
 
