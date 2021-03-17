@@ -78,7 +78,7 @@ let prototypePuzzle = {
 
          // Counter of each move
          clicks++;
-         select("#clicks").elt.innerHTML = `Moves: ${clicks}`;
+         select("#clicks").elt.innerHTML = `${clicks}`;
 
          // timer starts
          if (timerInterval == undefined) {
